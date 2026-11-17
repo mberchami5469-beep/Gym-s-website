@@ -1,0 +1,326 @@
+
+.home {
+    min-height: 100vh;
+    background-image: url(images/home.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.about{
+    min-height: 100vh;
+    background-image: url(images/aboutbg.png);
+    background-size: cover;
+    background-position: center;
+}
+.service{
+    min-height: 100vh;
+    background-image: url(images/service.png);
+    background-size: cover;
+    background-position: center;
+}
+.contact{
+    min-height: 100vh;
+    background-image: url(images/contact.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.734);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 30px;
+   
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e50914;
+}
+
+.navbar-nav .nav-link.active {
+    color: #e50914;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 35px 40px;
+    border-left: 4px solid #e50914;
+    max-width: 700px;
+}
+
+#header {
+    margin: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 64px;
+    line-height: 1;
+}
+
+#header span {
+    color: #e50914;
+}
+
+#first-p {
+    font-weight: bold;
+    max-width: 580px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #e5e5e5;
+}
+
+#home-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background-color: #e50914;
+    color: rgba(32, 22, 22, 0.825);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#home-btn:hover {
+    background-color: white;
+    color: #111;
+}
+
+
+
+.about-content {
+    border-left: 4px solid #e50914;
+    padding-left: 28px;
+    max-width: 520px;
+}
+
+.about-content h1 {
+    color: white;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+.about-content h1 span {
+    display: block;
+    color: #e50914;
+}
+
+
+.about-content p {
+    color: #ddd;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.about-content .btn {
+    
+    border: none;
+    padding: 10px 16px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.about-content .btn{
+    background-color: #b90710;
+}
+.btn:hover{
+    background-color: white;
+}
+
+.card {
+    height: 480px;
+    width: 100%;
+    border: none ;
+    border-radius: 15px;
+    
+    background-color: #212529;
+}
+.card-img-top {
+    height: 280px;
+   
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 16px;
+
+}
+.card:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+#titre{
+    margin-top: 100px;
+}
+/* CONTACT FORM */
+.forme {
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.70);
+    padding: 35px 40px;
+    max-width: 800px;
+    border-left: 4px solid #e50914;
+
+    margin-top: 0;
+    margin-bottom: 40px;    
+}
+
+.forme form {
+    width: 100%;
+}
+
+.forme h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.forme p {
+    color: #ddd;
+}
+
+/* RED TEXT */
+.red-text {
+    color: #e50914;
+}
+
+.red-texte {
+    color: #e50914;
+}
+
+/* INPUT */
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #e50914;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.input-box input,.input-box textarea {
+    width: 100%;
+    padding: 15px 15px 15px 50px;
+    background-color: #111;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+}
+
+/* MESSAGE */
+.input-box textarea {
+    height: 120px;
+    
+}
+
+/* icon message */
+.input-box.message-box i {
+    top: 20px;
+    transform: none;
+}
+
+/* PLACEHOLDER */
+.input-box input::placeholder,
+.input-box textarea::placeholder {
+    color: #aaa;
+}
+
+/* CHECKBOX */
+#checkbox {
+    accent-color: #e50914;
+    width: 16px;
+    height: 16px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-left: 5px;
+}
+
+/* BUTTON */
+.forme button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.forme button:hover {
+    background-color: white;
+    color: #111;
+}
+/* MOBILE */
+@media (max-width: 991px) {
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        width: 220px;
+        background-color: rgba(0, 0, 0, 0.92);
+        padding: 15px 20px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    #header {
+        font-size: 45px;
+    }
+
+    .about-content h1 {
+        font-size: 42px;
+    }
+}
